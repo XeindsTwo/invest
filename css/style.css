@@ -107,16 +107,17 @@
 .invest__items {
   display: flex;
   flex-direction: column;
-  max-width: 420px;
+  max-width: 440px;
   width: 100%;
   gap: 46px;
 }
 
 .noUi-target {
-  margin-top: 23px;
+  margin-top: 28px;
   height: 6px;
   cursor: pointer;
   border: none;
+  border-radius: 10px;
   background-color: #025ED7;
   box-shadow: none;
 }
@@ -129,6 +130,7 @@
   width: 20px;
   height: 20px;
   top: -8px;
+  right: -12px;
   border-radius: 50%;
   box-shadow: none;
   border: none;
@@ -157,6 +159,7 @@
 .noUi-value-horizontal {
   height: 18px;
   width: 2px;
+  font-size: 0;
   background-color: #025ED7;
   transform: translate(-50%, -58%);
 }
