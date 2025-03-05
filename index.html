@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Описание сайта">
+  <title>Вокальный конкурс на Урале</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.8.1/nouislider.min.css"
+        integrity="sha512-qveKnGrvOChbSzAdtSs8p69eoLegyh+1hwOMbmpCViIwj7rn4oJjdmMvWOuyQlTOZgTlZA0N2PXA7iA8/2TUYA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body class="body">
+<section class="invest">
+  <div class="container">
+    <h2 class="invest__title">Инвестиционный калькулятор</h2>
+    <div class="invest__inner">
+      <div class="invest__card">
+        <ul class="invest__items">
+          <li class="invest__item">
+            <p class="invest__subtitle-left">Сумма инвестиций:</p>
+            <p class="invest__subtext" id="sumInvest">50 000 евро</p>
+            <div id="sumInvestSlider" class="custom-slider"></div>
+          </li>
+          <li class="invest__item">
+            <p class="invest__subtitle-left">Прогнозируемая ставка:</p>
+            <p class="invest__subtext" id="forecastPercent">27,3%</p>
+          </li>
+          <li class="invest__item">
+            <p class="invest__subtitle-left">Срок инвестирования:</p>
+            <p class="invest__subtext" id="timeInvest">12 месяцев</p>
+            <div id="timeInvestSlider" class="custom-slider"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="invest__right">
+        <div class="invest__card blue center">
+          <h3 class="invest__subtitle">Сумма в конце периода:</h3>
+          <span class="invest__sum" id="endOfPeriod">63 650 евро</span>
+        </div>
+        <div class="invest__card center">
+          <h3 class="invest__subtitle">Ваш доход составит:</h3>
+          <span class="invest__sum" id="incomeInvest">13 650 евро</span>
+          <a class="invest__link" href="" target="_blank">Написать менеджеру</a>
+          <p class="invest__info">*30% услуги администрирования взымаются в обязательном виде</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.8.1/nouislider.min.js"
+        integrity="sha512-g/feAizmeiVKSwvfW0Xk3ZHZqv5Zs8PEXEBKzL15pM0SevEvoX8eJ4yFWbqakvRj7vtw1Q97bLzEpG2IVWX0Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/index.js" type="module"></script>
+</body>
+</html>

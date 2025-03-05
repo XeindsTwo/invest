@@ -1,0 +1,162 @@
+*, &::before, &::after {
+  box-sizing: border-box;
+}
+
+.invest {
+  color: #161616;
+  margin-top: 96px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.invest p, h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.invest ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1510px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.invest__title {
+  font-size: 42px;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 46px;
+}
+
+.invest__inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  align-items: stretch;
+}
+
+.invest__right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.invest__card {
+  border-radius: 26px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F4FC;
+}
+
+.invest__card.blue {
+  background-color: #025ED7;
+  color: #fff;
+}
+
+.invest__card.center {
+  text-align: center;
+}
+
+.invest__subtitle {
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 26px;
+}
+
+.invest .invest__subtitle-left {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 19px;
+}
+
+.invest__sum {
+  font-size: 54px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.invest__link {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  color: #fff;
+  padding: 18px 16px;
+  text-decoration: none;
+  max-width: 400px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #025ED7;
+  border-radius: 16px;
+}
+
+.invest__info {
+  font-size: 14px;
+}
+
+.invest__items {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  width: 100%;
+  gap: 46px;
+}
+
+.noUi-target {
+  margin-top: 23px;
+  height: 6px;
+  cursor: pointer;
+  border: none;
+  background-color: #025ED7;
+  box-shadow: none;
+}
+
+.noUi-connect {
+  display: none;
+}
+
+.noUi-handle.noUi-handle-lower {
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  background-color: #025ED7;
+}
+
+.noUi-handle.noUi-handle-lower::before,
+.noUi-handle.noUi-handle-lower::after {
+  display: none;
+}
+
+.noUi-marker.noUi-marker-horizontal.noUi-marker-normal {
+  display: none;
+}
+
+.noUi-marker-horizontal.noUi-marker-large {
+  display: none;
+}
+
+.noUi-pips-horizontal {
+  height: auto;
+  padding: 0;
+}
+
+.noUi-value-horizontal {
+  height: 18px;
+  width: 2px;
+  background-color: #025ED7;
+  transform: translate(-50%, -58%);
+}
